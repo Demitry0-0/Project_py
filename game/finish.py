@@ -9,8 +9,8 @@ class Finish(pygame.sprite.Sprite):
         super().__init__(group)
         self.image = load_image('die.jpg')
         self.rect = self.image.get_rect().move(-1000, 0)
-        pygame.mixer.music.load('data\\probitie.wav')
-        pygame.mixer.music.play()
+        #pygame.mixer.music.load('data\\probitie.wav')
+        #pygame.mixer.music.play()
         while True:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
